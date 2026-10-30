@@ -10,4 +10,4 @@
 Get-Process |
     Where-Object { CPU_Usage -gt 1% } |
     Sort-Object CPU |
-    Select-Object -First 5 Name, CPU
+    Select-Object -Last 5 Name, CPU
