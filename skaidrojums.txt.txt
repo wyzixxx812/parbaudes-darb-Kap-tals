@@ -1,0 +1,13 @@
+J1
+
+1.Atveršu zurnalfailu
+2.izveidošu skriptu lai parskaitit kludas
+3.Apskatišu pašu zurnalu ar skriptu
+4.noskaidrošu, kada diennakti stunda kļudu skaits ir visvairak
+5.Atdošu atbilde pasnedzejam
+
+
+J2
+
+
+Powershella priekšrociba ir tada, ka tev nevajag ierakstit katru processu atseviski neka basha
