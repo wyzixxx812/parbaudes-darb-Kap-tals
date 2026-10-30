@@ -8,6 +8,7 @@
 # ----------------------------------------------------------------------                                                                                                Rezultātam pievieno arī kolonnu Id.
 
 Get-Process |
-    Where-Object { CPU_Usage -gt 1% } |
+    Where-Object { $_.CPU -ne $null } |
     Sort-Object CPU |
     Select-Object -Last 5 Name, CPU
+
